@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkl_1_l_blog=self.webpackChunkl_1_l_blog||[]).push([[5715],{8298:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/vue","name":"Vue","count":2,"permalink":"/blog/tags/vue"}')}}]);
