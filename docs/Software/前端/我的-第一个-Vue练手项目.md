@@ -1,5 +1,5 @@
 ---
-title: 我的 第一个 Vue练手项目
+title: 我的第一个Vue练手项目
 ---
 
 > My first Vue project，为网易有道词典笔百日阅读打卡活动写的格式规范工具
