@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>L1l's Blog Blog</title>
+        <title>L1l Blog</title>
         <link>https://mondaycha.github.io/blog</link>
-        <description>L1l's Blog Blog</description>
+        <description>L1l Blog</description>
         <lastBuildDate>Thu, 04 Feb 2021 06:17:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -180,7 +180,7 @@ public class Main {
 
 </code></pre><h2>Part  3: 动态规划问题</h2><blockquote><p> 一个二维数组，找出其中的最长路径，每次只能向值比自己小的方向走，且每次只能向下或者向右走</p></blockquote><p>这道题一开始我直接说DFS+记忆路径, 然后面试官提示和之前的解有什么联系, 我恍然大悟, 是DP呀.</p><p>然后说了一堆都不对, 最后得知是我的理解有误, 我以为是从第一个点出发的最长路径, 但是其实是能联通的最长路径(也就是不限制起点)</p><p>那么这样的话就可以写出转移方程:
 $$
-D<!-- -->[i][j]<!-- -->=\max(能走?D<!-- -->[i][j-1]<!-- -->:0,能走?D<!-- -->[i-1][j]<!-- -->:0)+1
+D<!-- -->[i][j]<!-- -->=\max(canMove?D<!-- -->[i][j-1]<!-- -->:0,canMove?D<!-- -->[i-1][j]<!-- -->:0)+1
 $$
 于是有如下代码:</p><pre><code class="language-java">import java.util.*;
 public class Main {
