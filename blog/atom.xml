@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mondaycha.github.io/blog</id>
     <title>L1l Blog</title>
-    <updated>2021-02-04T06:17:25.000Z</updated>
+    <updated>2021-12-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mondaycha.github.io/blog"/>
     <subtitle>L1l Blog</subtitle>
     <icon>https://mondaycha.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[某日，对于自己未来的思考]]></title>
+        <id>某日，对于自己未来的思考</id>
+        <link href="https://mondaycha.github.io/blog/2021/12/03/某日，对于自己未来的思考"/>
+        <updated>2021-12-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一、]]></summary>
+        <content type="html"><![CDATA[<h2>一、</h2><p>从得知自己有幸加入研究生支教团到现在，已经接近三个月了。</p><p>这三个月里，我过着没有目标的，浑浑噩噩的日子。</p><h2>二、</h2><p>我很有可能会去西藏，那里的职业技术学校。</p><p>那里的孩子，十七八岁的年纪，已经有我这辈子都不会体会到的爱恋与热血。</p><p>我听说，上上届的支教团成员，在那里是隐姓埋名工作的。</p><h2>三、</h2><p>我所想要说的，不过是在重复别人已经说过无数次的观点。</p><p>今天思考了很久，我终于重新给自己的未来画了一张草图。</p><p>并不存在无法做到的选项，因为如果连这都放弃的话，那我并不存在无法做到的选项。</p>]]></content>
+        <author>
+            <name>L1l</name>
+            <uri>https://github.com/MondayCha</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Windows 10 安装 Ubuntu 20.04 双系统不完全踩坑记录]]></title>
         <id>Windows 10 安装 Ubuntu 20.04 双系统不完全踩坑记录</id>

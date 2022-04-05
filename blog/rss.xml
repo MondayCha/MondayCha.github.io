@@ -4,9 +4,17 @@
         <title>L1l Blog</title>
         <link>https://mondaycha.github.io/blog</link>
         <description>L1l Blog</description>
-        <lastBuildDate>Thu, 04 Feb 2021 06:17:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[某日，对于自己未来的思考]]></title>
+            <link>https://mondaycha.github.io/blog/2021/12/03/某日，对于自己未来的思考</link>
+            <guid>某日，对于自己未来的思考</guid>
+            <pubDate>Fri, 03 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[一、]]></description>
+            <content:encoded><![CDATA[<h2>一、</h2><p>从得知自己有幸加入研究生支教团到现在，已经接近三个月了。</p><p>这三个月里，我过着没有目标的，浑浑噩噩的日子。</p><h2>二、</h2><p>我很有可能会去西藏，那里的职业技术学校。</p><p>那里的孩子，十七八岁的年纪，已经有我这辈子都不会体会到的爱恋与热血。</p><p>我听说，上上届的支教团成员，在那里是隐姓埋名工作的。</p><h2>三、</h2><p>我所想要说的，不过是在重复别人已经说过无数次的观点。</p><p>今天思考了很久，我终于重新给自己的未来画了一张草图。</p><p>并不存在无法做到的选项，因为如果连这都放弃的话，那我并不存在无法做到的选项。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Windows 10 安装 Ubuntu 20.04 双系统不完全踩坑记录]]></title>
             <link>https://mondaycha.github.io/blog/2021/02/04/Windows-10-安装-Ubuntu-20.04-双系统不完全踩坑记录</link>
