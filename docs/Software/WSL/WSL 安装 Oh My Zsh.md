@@ -29,6 +29,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/wting/autojump.git
 python3 ./install.py
 ```
-
-Zsh 配置文件：
-[EnjoyCoding/.zshrc at main · MondayCha/EnjoyCoding (github.com)](https://github.com/MondayCha/EnjoyCoding/blob/main/zsh/.zshrc)
