@@ -1,4 +1,5 @@
 # WSL 安装 Oh My Zsh
+[[Windows-10-安装-Ubuntu-20.04-双系统不完全踩坑记录]]
 
 开启 Windows 的 Linux 子系统设置（之前设置过，感觉是升级 Win 11 之后被还原了）：
 ```cmd

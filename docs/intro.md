@@ -13,6 +13,3 @@ title: About Me
 - 📷 Intelligent Devices Blogger (Maybe?)
 - 🔭 Welcome to my blog: [L1l's Blog](https://mondaycha.github.io/)
 - 📫 How to reach me: [mondaycha@outlook.com](mailto:mondaycha@outlook.com)
-
-
-![github-readme-stats](https://github-readme-stats.vercel.app/api?username=MondayCha&count_private=true&hide=issues,contribs&show_icons=true)
