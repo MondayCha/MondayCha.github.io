@@ -8,7 +8,7 @@ title: 个人网站迁移之旅：从博客到知识库，从 Hexo 到 Docusauru
 
 这之中大概还是有很多值得记录的吧，然而从结果上看我并没有留下什么，因此我也开始思考就我个人的情况而言，用时间轴将文章串联起来的博客，是否是个人网站最合适的载体。
 
-## 你需要的怎样的个人网站？
+## 我需要的是怎样的个人网站？
 
 知乎、简书、博客园、微信公众号……那些优秀或不那么优秀的写作平台已经有很多很多。而选择独立于这些大平台，去运营自己的个人网站，这件事多少带点理想主义色彩——个人网站缺乏稳定的流量来源，在国内更是需要备案等操作，虽然能免于平台审核的等待，但更多时候恐怕只是小圈子的孤芳自赏。
 
@@ -16,7 +16,7 @@ title: 个人网站迁移之旅：从博客到知识库，从 Hexo 到 Docusauru
 
 搭建个人网站则主要是为了寻找一种将所学知识归类展示的渠道，希望可以通过笔记避免知识的遗忘。从我之前在 Hexo 上发布的博客来看，我发布的内容以课程内容、软件技巧为主，这些内容一般有比较明确的分类和标签，比起瀑布流式的文章，更适合用树状的Docs进行整理，这也成了本次迁移到 Docusaurus 的主要动力。
 
-## Hexo 有哪些不适合你的地方？
+## Hexo 有哪些不适合我的地方？
 
 在使用 Hexo 的过程中，我主要遇到了以下痛点（事实上很多痛点都是技术菜所导致的）：
 
@@ -46,7 +46,7 @@ Docusaurus 是一款基于 React 构建的站点生成器，可用于构建文�
 
 ## 从 Hexo 迁移到 Docusaurus 需要几步？
 
-忍不住讲起某个大象与冰箱的笑话，虽然我一直感觉这个笑话好冷。[Hexo](https://hexo.io/zh-cn/docs/front-matter) 和 [Docusaurus](https://www.docusaurus.cn/docs/blog#adding-posts) 的 Front-matter 存在部分命名上的差异，好在它们都是用 YAML 格式组织的，因此我写了两个简单的 Ruby 脚本（[Github 仓库地址](https://github.com/MondayCha/Hexo2Docusaurus)），可以提取出原先在 Hexo 生成博文的时间戳、标题、标签、分类等信息，将其分别转换为 Docusaurus 格式的文档和博客 Markdown。
+忍不住讲起某个大象与冰箱的笑话，虽然有点冷。[Hexo](https://hexo.io/zh-cn/docs/front-matter) 和 [Docusaurus](https://www.docusaurus.cn/docs/blog#adding-posts) 的 Front-matter 存在部分命名上的差异，好在它们都是用 YAML 格式组织的，因此我写了两个简单的 Ruby 脚本（[Github 仓库地址](https://github.com/MondayCha/Hexo2Docusaurus)），可以提取出原先在 Hexo 生成博文的时间戳、标题、标签、分类等信息，将其分别转换为 Docusaurus 格式的文档和博客 Markdown。
 
 ```ruby
 #!/usr/bin/ruby
@@ -134,7 +134,7 @@ end
 
 将脚本放在 Hexo 目录下的 `\source\_posts`文件夹下，与此前创建的博文平级，之后运行脚本即可获得适用于 Docusaurus 的 `.md`文件。
 
-## 从零开始的 Docusaurus 配置生活
+## Docusaurus 配置
 
 ### 1. 环境配置
 
@@ -166,11 +166,11 @@ yarn start
 
 部署完成后，如果 3000 端口没有被占用，那么访问 [localhost:3000](localhost:3000) 就能看到提供的模板页面了。
 
-### 3. 创作你的创作
+### 3. 创作博文
 
 如果你已经有 Hexo 博文，那么正如上一节，将博文的 Front-matter 转换后放入根目录下的`blog`或`docs`文件夹。可以参见官方文档中的说明，非常详细。
 
-### 4. 最期待的 CI/CD 环节
+### 4. CI/CD
 
 我选择使用 Github Pages 进行部署，先参考「[部署 | Docusaurus 中文文档 | Docusaurus 中文网](https://www.docusaurus.cn/docs/deployment#docusaurusconfigjs-settings)」一节，修改`docusaurus.config.js`的`module.exports`部分，否则 Github Actions 会显示无权访问，因为你把网页部署到 Facebook 那里去了……
 
@@ -204,6 +204,6 @@ jobs:
 
 我的 Github 项目分支结构可以参考「[MondayCha/MondayCha.github.io: MondayCha's blog, made with Docusaurus v2.](https://github.com/MondayCha/MondayCha.github.io)」
 
-至此就完成了从 Hexo 到 Docusaurus 的迁移与部署工作了，最后放几张新知识库的图片吧：
+至此就完成了从 Hexo 到 Docusaurus 的迁移与部署工作了。
 
-以上，未来一年好好准备毕业设计，准备教师资格证考试，准备研究生阶段的知识。如果说您有疑问的话也可以在知乎评论区或 Github Issue 区留言，我有看到就会回复的。
+以上，未来一年好好准备毕业设计，准备教师资格证考试，准备研究生阶段的知识。

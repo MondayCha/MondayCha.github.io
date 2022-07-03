@@ -8,11 +8,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 wsl --set-default-version 2
 ```
 
-在 WSL 上，使用宿主机 Clash 提供的代理服务：
+在 WSL 上，使用宿主机提供的代理服务：
 ```shell
 export hostip=$(cat /etc/resolv.conf |grep -oP '(?<=nameserver\ ).*')
-export https_proxy="http://${hostip}:7890"
-export http_proxy="http://${hostip}:7890"
+export https_proxy="http://${hostip}:10811"
+export http_proxy="http://${hostip}:10811"
 ```
 
 Zsh 安装：

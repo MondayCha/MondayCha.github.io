@@ -9,7 +9,8 @@ title: About Me
 [![bilibili](https://img.shields.io/badge/dynamic/json?labelColor=FE7398&label=BILIBILI&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dbilibili%26queryKey%3D95736001&color=282c34&longCache=true?&style=for-the-badge)](https://space.bilibili.com/95736001)
 [![酷安](https://img.shields.io/badge/dynamic/json?labelColor=%2312b566&color=282c34&label=COOLAPK&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dcoolapk%26queryKey%3D1918908&longCache=true?&style=for-the-badge)](https://www.coolapk.com/u/1918908)
 
+> 大概是个人网站？在 Obsidian 里写好，然后定期同步到 Github 上。
+
 - 🌱 Current student at *Beihang University* (BUAA)
-- 📷 Intelligent Devices Blogger (Maybe?)
 - 🔭 Welcome to my blog: [L1l's Blog](https://mondaycha.github.io/)
 - 📫 How to reach me: [mondaycha@outlook.com](mailto:mondaycha@outlook.com)
