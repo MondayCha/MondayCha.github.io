@@ -12,7 +12,7 @@ const config = {
   tagline: "我逐渐理解了一切（完全没理解）",
   url: "https://mondaycha.github.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "mondaycha", // Usually your GitHub org/user name.
